@@ -54,7 +54,7 @@
 
 <div align="left">
  
- REST API in GOLANG
+ REST API in GOLANG using GIN, JWT, SQL, Swagger
 
 ==Array==
 </div>
