@@ -1,1 +1,0 @@
-GIn, JWT, SQL, Swagger
