@@ -26,6 +26,7 @@ func (m *UserModel) Insert(user *User) error {
 	return m.DB.QueryRowContext(ctx, query, user.Email, user.Password, user.Name).Scan(&user.Id)
 }
 
+// "args ...interface{}" this allows us to pass in any number of arguments to the query
 func (m *UserModel) getUser(query string, args ...interface{}) (*User, error) {
 	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
 	defer cancel()

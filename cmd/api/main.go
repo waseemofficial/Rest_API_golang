@@ -3,9 +3,9 @@ package main
 import (
 	"database/sql"
 	"log"
-	_ "rest-api-in-gin/docs"
-	"rest-api-in-gin/internal/database"
-	"rest-api-in-gin/internal/env"
+	_ "rest-api-gin/docs"
+	"rest-api-gin/internal/database"
+	"rest-api-gin/internal/env"
 
 	_ "github.com/joho/godotenv/autoload"
 	_ "github.com/mattn/go-sqlite3"
